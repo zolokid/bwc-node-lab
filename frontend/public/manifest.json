@@ -1,0 +1,16 @@
+{
+  "short_name": "ซื้อ Toyota YARIS/ATIV, Revo ทุกรุ่นวันนี้ ออกรถง่ายเพียง 800 บาท | Barawindsor",
+  "name": "ซื้อ Toyota YARIS/ATIV, Revo ทุกรุ่นวันนี้ ออกรถง่ายเพียง 800 บาท  | Barawindsor",
+  "icons": [
+    {
+     "src": "https://www.toyotabara.com/home/wp-content/uploads/2020/12/favicon.png",
+     "sizes": "96x96",
+     "type": "image\/png",
+     "density": "2.0"
+    }
+   ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

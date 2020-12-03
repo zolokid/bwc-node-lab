@@ -1,0 +1,190 @@
+@import "../../variables";
+
+.sectionPromotion {
+	width: 100%;
+	height: auto;
+}
+
+.promotion {
+	width: 100%;
+	height: auto;
+}
+
+.containerRow {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.containerRowNoWrap {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.containerCol {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.containerColNoWrap {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 10px 10px;
+}
+
+.btnShippingOption {
+	// background-color: #EAEAEA;
+	//background-color: #ffffff;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 5px 10px;
+	font-size: 12px;
+	// box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+	width: 300px;
+
+	h4,
+	h3 {
+		// float: left;
+		font-size: 16px;
+		color: #000000;
+		margin: 5px 0;
+	}
+}
+
+.btnShippingOptionModel {
+	// background-color: #EAEAEA;
+	//background-color: #ffffff;
+	border-radius: 20px;
+	padding: 10px;
+	/*margin: 5px 10px;*/
+	font-size: 12px;
+	// box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+	width: 30%;
+	margin-right: 3%;
+	margin-bottom: 15px;
+	background-color: #f5f5f5;
+
+	h4,
+	h3 {
+		// float: left;
+		font-size: 16px;
+		color: #000000;
+		margin: 5px 0;
+	}
+}
+
+.btnShippingOption:hover {
+	background-color: #d00000;
+	p,
+	h4,
+	h3,
+	h1,
+	qd {
+		color: white;
+	}
+}
+
+.previewCar {
+	height: 60px;
+	margin-top: 17px;
+}
+
+.previewCarModel {
+	width: 280px;
+}
+
+.modelCar {
+	width: 260px;
+}
+
+.buttonForCal {
+	background-color: #272727;
+	width: 60%;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 0;
+	font-size: 13px;
+	border-radius: 7px;
+	color: #ffffff;
+}
+
+.containerGrid {
+	padding: 10px;
+	width: 25%;
+}
+
+.btnShippingOptionSubModel {
+	// background-color: #EAEAEA;
+	//background-color: #ffffff;
+	border-radius: 20px;
+	padding: 10px;
+	/*margin: 5px 10px;*/
+	font-size: 12px;
+	// box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+	//width: 300px;
+	width: 100%;
+
+	h4,
+	h3 {
+		// float: left;
+		font-size: 16px;
+		color: #000000;
+		margin: 5px 0;
+	}
+}
+
+.btnShippingOptionSubModel:hover {
+	background-color: #d00000;
+	p,
+	h4,
+	h3,
+	h1,
+	small {
+		color: white;
+	}
+}
+p {
+	padding-top: 5px;
+}
+small {
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.active {
+	background-color: #d00000;
+	p,
+	div,
+	h4,
+	h3,
+	h1,
+	small {
+		color: white;
+	}
+}
+.deactive {
+	background-color: #f5f5f5;
+	small {
+		color: #d00000;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.btnShippingOptionSubModel {
+		width: 100%;
+	}
+	.containerGrid {
+		padding: 10px;
+		width: 100%;
+	}
+
+	.btnShippingOptionModel {
+		width: 100%;
+		margin-right: 0;
+	}
+}
