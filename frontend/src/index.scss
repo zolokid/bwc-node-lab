@@ -1,0 +1,44 @@
+// @import-normalize; /* bring in normalize.css styles */
+/* rest of app styles */
+@import 'normalize.scss';
+
+/* This is Recommended reset from CRA from https://create-react-app.dev/docs/adding-css-reset */
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: KanitExtraLight;
+    // src: url("./fonts/Sarabun-Regular.ttf")
+    // src: url("./fonts-2/Prompt-Light.ttf")
+    src: url("./fontsKanit/Kanit-ExtraLight.ttf")
+}
+
+@font-face{
+    font-family: KanitLight;
+    // src: url("./fonts/Sarabun-SemiBold.ttf")
+    // src: url("./fonts-2/Prompt-Regular.ttf")
+    src: url("./fontsKanit/Kanit-Light.ttf")
+}
+
+body {
+    font-family: KanitExtraLight;
+}
+
+b, h1, h2, h3, h4 {
+    font-family: KanitLight;
+}
+
+a {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+}
+
